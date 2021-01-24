@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Vazir-FD';
+  src: url('../fonts/Vazir-Medium-FD.woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vazir-FD';
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  background: #5e35b1;
+}
+
+.products {
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin: 3rem;
+  border-radius: 5px;
+}
+
+.product {
+  display: inline-block;
+  margin: 3rem 1rem;
+  padding: 3rem;
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  width: 40%;
+}
+
+.product__image img {
+  max-width: 30%;
+}
+
+.product__price {
+  color: #388e3c;
+}
+
+.add-to-cart {
+  background: #673ab7;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font: inherit;
+  padding: 1rem 1.6rem;
+}
+
+.cart {
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin: 3rem;
+  border-radius: 5px;
+}
+
+.cart__title {
+  color: #5e35b1;
+}
+
+.cart__line {
+  border-top: 2px solid #5e35b1;
+  margin: 2rem 10rem;
+}
+
+.cart__item-title {
+  display: inline-block;
+  margin: 0 3rem;
+}
+
+.cart__item {
+  display: flow-root;
+  padding-top: 2rem;
+}
+
+.cart__item-remove {
+  background: #e53935;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  font: inherit;
+  padding: 0.6rem 1.6rem;
+  margin: 0 3rem;
+}
+
+.cart__total-price {
+  color: #388e3c;
+  margin-top: 8rem;
+}
